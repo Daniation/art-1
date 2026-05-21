@@ -40,6 +40,11 @@
 
 .button {
     -fx-focus-traversable: false;
+    -fx-text-fill: #f0f6fc;
+}
+
+.button:hover {
+    -fx-opacity: 0.9;
 }
 
 .hyperlink {
