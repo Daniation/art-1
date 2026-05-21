@@ -1,0 +1,96 @@
+@import "style.css";
+
+#login-root {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0d1117, #161b22, #0d1117);
+    -fx-alignment: center;
+}
+
+#login-title {
+    -fx-fill: #58a6ff;
+    -fx-font-size: 42px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+#login-subtitle {
+    -fx-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+#login-form {
+    -fx-background-color: #161b22;
+    -fx-border-color: #30363d;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 40;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 20, 0, 0, 10);
+}
+
+.login-field {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #30363d;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 14 20;
+    -fx-text-fill: #f0f6fc;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #484f58;
+    -fx-pref-width: 320;
+}
+
+.login-field:focused {
+    -fx-border-color: #58a6ff;
+}
+
+.login-btn {
+    -fx-background-color: #238636;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 14 40;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-cursor: hand;
+    -fx-pref-width: 320;
+    -fx-effect: dropshadow(gaussian, rgba(35,134,54,0.3), 10, 0, 0, 5);
+}
+
+.login-btn:hover {
+    -fx-background-color: #2ea043;
+    -fx-effect: dropshadow(gaussian, rgba(35,134,54,0.5), 15, 0, 0, 8);
+}
+
+.login-btn:pressed {
+    -fx-background-color: #1e7e30;
+}
+
+.register-link {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 13px;
+    -fx-border-color: transparent;
+    -fx-underline: true;
+}
+
+.register-link:hover {
+    -fx-text-fill: #58a6ff;
+}
+
+.role-label {
+    -fx-text-fill: #c9d1d9;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.role-radio {
+    -fx-text-fill: #c9d1d9;
+    -fx-font-size: 14px;
+}
+
+.role-radio .radio {
+    -fx-mark-color: #58a6ff;
+}
+
+.role-radio .dot {
+    -fx-mark-color: #58a6ff;
+}

@@ -1,0 +1,54 @@
+* {
+    -fx-font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.root {
+    -fx-background-color: #0d1117;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 8;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #30363d;
+    -fx-background-radius: 4;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #484f58;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.text-field, .text-area {
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-focus-traversable: false;
+}
+
+.hyperlink {
+    -fx-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.dialog-pane {
+    -fx-background-color: #161b22;
+    -fx-border-radius: 16;
+    -fx-background-radius: 16;
+}
