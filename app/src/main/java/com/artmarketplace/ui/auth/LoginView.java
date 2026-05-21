@@ -68,6 +68,7 @@ public class LoginView {
 
             if (user != null) {
                 SessionManager.getInstance().setCurrentUser(user);
+                new com.artmarketplace.service.NotificationService().registerObserver(user.getUsername());
                 AlertUtil.showInfo("Welcome", "Welcome back, " + user.getFullName() + "!");
 
                 switch (user.getRole()) {
